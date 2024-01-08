@@ -1,21 +1,19 @@
-.row
-{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+.row {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
-.center
-{
-text-align: center;
+.center {
+  text-align: center;
 }
 .column {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
